@@ -1,0 +1,6 @@
+Installed:
+
+1. tailwind.css
+2. react-icons
+3. react-scroll
+4. react-type-animation
