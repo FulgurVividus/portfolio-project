@@ -3,6 +3,7 @@ import arrow from "../assets/arrow.png";
 import { AiFillGithub } from "react-icons/ai";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
 
 const projects = [
   {
@@ -22,6 +23,16 @@ const projects = [
     links: {
       site: "https://mapty-fulgur-vividus.netlify.app/",
       github: "https://github.com/FulgurVividus/Mapty",
+    },
+  },
+  {
+    img: project3,
+    title: "Project #3",
+    description:
+      "The Notes App provides users with a simple and intuitive interface to manage their notes efficiently. With features like adding, deleting, editing, and searching notes, users can easily organize their thoughts and ideas.",
+    links: {
+      site: "https://github.com/FulgurVividus/Notes-App",
+      github: "https://github.com/FulgurVividus/Notes-App",
     },
   },
 ];
