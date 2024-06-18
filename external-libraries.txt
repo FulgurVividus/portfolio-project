@@ -4,3 +4,5 @@ Installed:
 2. react-icons
 3. react-scroll
 4. react-type-animation
+5. email.js 
+6. just in case -> https://app.getform.io/
