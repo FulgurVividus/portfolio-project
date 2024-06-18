@@ -32,10 +32,10 @@ const Hero = () => {
 
           <div className="my-auto ml-8 flex-col text-gray-200">
             <p className="text-2xl md:text-4xl font-bold">
-              Hi! I am Murodjon Muzaffarov
+              Hi! I am Murodjon
               <br />
               <TypeAnimation
-                sequence={["Front-End Engineer", 1000, "Web-Developer", 1000]}
+                sequence={["Front-End Engineer", 1000, "Web-Dev", 1000]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
