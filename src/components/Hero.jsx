@@ -70,7 +70,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex text-6xl gap-4 justify-center items-center glass text-gray-600">
+          <div className="flex text-6xl gap-4 justify-center place-items-center glass text-gray-600">
             <a href="https://github.com/FulgurVividus" target="blank">
               <AiFillGithub />
             </a>
