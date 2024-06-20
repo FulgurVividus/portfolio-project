@@ -4,8 +4,13 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   const handleNav = function () {
     setNav(!nav);
+  };
+
+  const handleCloseMenu = function () {
+    setNav(false);
   };
 
   return (
@@ -15,13 +20,35 @@ const Navbar = () => {
 
         <ul className="hidden md:flex">
           <li className="p-5">
-            <Link to="/about">About</Link>
+            <Link
+              smooth={true}
+              offset={-10}
+              duration={500}
+              to="portfolio"
+              className="cursor-pointer"
+            >
+              Portfolio
+            </Link>
           </li>
           <li className="p-5">
-            <Link to="/about">Experience</Link>
+            <Link
+              smooth={true}
+              offset={-50}
+              duration={500}
+              to="experience"
+              className="cursor-pointer"
+            >
+              Experience
+            </Link>
           </li>
           <li className="p-5">
-            <Link to="/about" className="px-4 py-2 rounded-xl bg-primary-color">
+            <Link
+              smooth={true}
+              offset={50}
+              duration={500}
+              to="contact"
+              className="px-4 py-2 rounded-xl bg-primary-color cursor-pointer"
+            >
               Contact
             </Link>
           </li>
@@ -41,15 +68,37 @@ const Navbar = () => {
           <h1 className="text-3xl font-bold m-4">Murodjon Muzaffarov</h1>
           <ul className="p-8 text-2xl">
             <li className="p-5">
-              <Link to="/about">About</Link>
-            </li>
-            <li className="p-5">
-              <Link to="/about">Experience</Link>
+              <Link
+                smooth={true}
+                offset={-10}
+                duration={500}
+                to="portfolio"
+                className="cursor-pointer"
+                onClick={handleCloseMenu}
+              >
+                Portfolio
+              </Link>
             </li>
             <li className="p-5">
               <Link
-                to="/about"
-                className="px-4 py-2 rounded-xl bg-primary-color"
+                smooth={true}
+                offset={-50}
+                duration={500}
+                to="experience"
+                className="cursor-pointer"
+                onClick={handleCloseMenu}
+              >
+                Experience
+              </Link>
+            </li>
+            <li className="p-5">
+              <Link
+                smooth={true}
+                offset={10}
+                duration={500}
+                to="contact"
+                className="px-4 py-2 rounded-xl bg-primary-color cursor-pointer"
+                onClick={handleCloseMenu}
               >
                 Contact
               </Link>
