@@ -31,7 +31,7 @@ const Hero = () => {
           />
 
           <div className="my-auto ml-8 flex-col text-gray-200">
-            <p className="text-2xl md:text-4xl font-bold">
+            <p className="text-xl md:text-4xl font-bold">
               Hi! I am Murodjon
               <br />
               <TypeAnimation
@@ -71,10 +71,18 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex text-6xl gap-4 justify-center place-items-center glass text-gray-600">
-            <a href="https://github.com/FulgurVividus" target="_blank">
+            <a
+              href="https://github.com/FulgurVividus"
+              className="hover:scale-110 transition-transform duration-300"
+              target="_blank"
+            >
               <AiFillGithub />
             </a>
-            <a href="https://t.me/MurodjonMuzaffarov" target="_blank">
+            <a
+              href="https://t.me/MurodjonMuzaffarov"
+              className="hover:scale-110 transition-transform duration-300"
+              target="_blank"
+            >
               <FaTelegram />
             </a>
           </div>
