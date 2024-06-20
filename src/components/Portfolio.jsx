@@ -9,7 +9,8 @@ const projects = [
   {
     img: project1,
     title: "Project #1",
-    description: "Forkify Application for recipe and management searching.",
+    description:
+      "Forkify Application for recipe and management searching, built using HTML, SCSS, and JavaScript.",
     links: {
       site: "https://forkify-fulgur-vividus.netlify.app/",
       github: "https://github.com/FulgurVividus/Forkify",
@@ -29,7 +30,7 @@ const projects = [
     img: project3,
     title: "Project #3",
     description:
-      "The Notes App provides users with a simple and intuitive interface to manage their notes efficiently. With features like adding, deleting, editing, and searching notes, users can easily organize their thoughts and ideas.",
+      "The Notes App provides users with a simple and intuitive interface to manage their notes efficiently.",
     links: {
       site: "https://github.com/FulgurVividus/Notes-App",
       github: "https://github.com/FulgurVividus/Notes-App",
