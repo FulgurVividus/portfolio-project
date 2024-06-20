@@ -1,5 +1,7 @@
 # Portfolio 💼
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ef08100-6ac4-4b01-956b-0633d1d93a54/deploy-status)](https://app.netlify.com/sites/fulgur-vividus-portfolio/deploys)
+
 ## Overview ✅
 
 Portfolio is a personal portfolio website built using React, Vite, and Tailwind CSS. The website showcases projects, skills, and experiences, providing a professional online presence for potential employers and collaborators. The project leverages several libraries to enhance functionality and user experience, including react-icons, react-scroll, react-type-animation, and Getform for handling email submissions.
