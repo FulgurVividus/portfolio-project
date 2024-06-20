@@ -53,7 +53,7 @@ const Portfolio = () => {
           <img
             src={arrow}
             alt="arrow"
-            className="absolute w-[50px] top-10 right-12"
+            className="absolute w-[50px] top-10 right-0 md:right-12"
           />
 
           <ul className="ml-6 flex flex-row md:flex-col gap-6 flex-wrap justify-center md:gap-1 space-y-2 md:space-y-4 text-2xl">
