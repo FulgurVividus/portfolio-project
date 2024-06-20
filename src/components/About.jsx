@@ -17,7 +17,7 @@ const About = () => {
     <>
       <div
         className="max-w-[1000px] mt-12 mx-auto p-6 grid md:grid-cols-2 gap-8"
-        id="about"
+        id="experience"
       >
         <div className="p-6">
           <h2 className="text-gray-200 text-3xl font-bold mb-4">Skills</h2>
