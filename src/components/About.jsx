@@ -1,4 +1,3 @@
-import React from "react";
 import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { TbBrandGithub } from "react-icons/tb";

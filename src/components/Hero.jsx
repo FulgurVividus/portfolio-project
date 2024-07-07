@@ -1,4 +1,3 @@
-import React from "react";
 import profilePic from "../assets/ppic2.png";
 import { AiFillGithub } from "react-icons/ai";
 import { FaTelegram } from "react-icons/fa";

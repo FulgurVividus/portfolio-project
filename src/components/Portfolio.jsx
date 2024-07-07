@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import arrow from "../assets/arrow.png";
 import { AiFillGithub } from "react-icons/ai";
 import project1 from "../assets/project1.png";
