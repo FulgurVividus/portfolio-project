@@ -35,7 +35,7 @@ const Hero = () => {
               Hi! I am Murodjon
               <br />
               <TypeAnimation
-                sequence={["Front-End Engineer", 1000, "Web-Dev", 1000]}
+                sequence={["Front-End", 1000, "Web-Dev", 1000]}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
