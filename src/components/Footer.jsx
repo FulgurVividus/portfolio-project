@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithubSquare, FaTelegram } from "react-icons/fa";
 
 const Footer = () => {
@@ -17,7 +16,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="text-gray-400">©2024 M.Muzaffarov</p>
+        <p className="text-gray-400">
+          ©{new Date().getFullYear()} M.Muzaffarov
+        </p>
       </div>
     </>
   );
